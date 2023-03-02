@@ -3,9 +3,20 @@ Important commands:
 npx create-nx-workspace@latest  //This commands create a workspace for the project and then click create react standalone project. 
 
 
-npx nx g @nrwl/react:component navbar  //This command creates a component named navbar in project
+npx nx g @nrwl/react:component navbar  //This command creates a component named navbar in project.
+
 
 npm i styled-components //to install styled components. We can also select styled-component at time of creating react app.
 
+
 nx serve  //command to run the react app.
+
+
+npm install react-icons --save  // command to install react icons so that we can use all types of icons.
+
+
+npx nx g @nrwl/react:lib shared/data  // command to create a new library shared/data.
+
+
+npx nx g @nrwl/react:component navdata--project=shared-data --export //command to create a component navdata in shared-data library.
 
