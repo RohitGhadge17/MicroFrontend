@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import NavData from "../../../shared/data/src/lib/navdata/navdata";
+import NavData from '../navdata/navdata';
 /* eslint-disable-next-line */
 export interface NavbarProps { }
 

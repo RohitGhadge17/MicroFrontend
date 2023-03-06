@@ -15,7 +15,7 @@ nx serve  //command to run the react app.
 npm install react-icons --save  // command to install react icons so that we can use all types of icons.
 
 
-npx nx g @nrwl/react:lib shared/data  // command to create a new library shared/data.
+npx nx g @nrwl/react:component navdata   // command to create a new component called navdata.
 
 
 npx nx g @nrwl/react:component navdata--project=shared-data --export //command to create a component navdata in shared-data library.
